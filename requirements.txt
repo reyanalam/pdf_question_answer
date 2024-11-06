@@ -1,0 +1,14 @@
+fastapi
+pymupdf
+faiss-cpu
+uvicorn
+sentence-transformers
+python-multipart
+uvicorn[standard]
+websockets
+pytest
+httpx
+websockets
+pytest-asyncio
+fpdf
+pytest-xdist
