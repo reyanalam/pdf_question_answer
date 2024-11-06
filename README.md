@@ -31,13 +31,15 @@ pip install -r requirements.txt
 mkdir ./uploads
 ```
 ### 5. To run the FastAPI server locally
+```
 uvicorn src.main:app --reload
-
+```
 ### 6. Testing
 Open a different command prompt, navigate to the test folder, and run:
+```
 cd src/test
 pytest test_api.py
-
+```
 
 ## Architectural Overview
 This API is designed with the following components:
